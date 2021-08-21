@@ -1,0 +1,38 @@
+{
+  "english_verb": {
+    "infinitive": "",
+    "coupled_aspect": "",
+    "perfective": "",
+    "group": "",
+    "participles": {
+      "present": {
+        "active": "",
+        "passive": "",
+        "adverbial": ""
+      },
+      "past": {
+        "active": "",
+        "passive": "",
+        "adverbial": ""
+      }
+    },
+    "present": {
+      "singular": {
+        "first": "",
+        "second": "",
+        "third": ""
+      },
+      "plural": {
+        "first": "",
+        "second": "",
+        "third": ""
+      }
+    },
+    "past": {
+      "masculine": "",
+      "neuter": "",
+      "feminine": "",
+      "plural": ""
+    }
+  },
+}
