@@ -9,20 +9,20 @@ const NoMatch = () => (
     <div>
         Page Not Found
     </div>
-)
+);
 
 
 function App() {
     return (
-        <div className="main-content">
-            <div>
+        <div className="container">
+            <>
                 <Switch>
                     <Route exact path="/" component={ HomePage }/>
                     <Route path="*">
                         <NoMatch/>
                     </Route>
                 </Switch>
-            </div>
+            </>
         </div>
     );
 }

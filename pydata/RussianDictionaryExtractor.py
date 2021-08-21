@@ -128,7 +128,7 @@ def extract_adjectives():
             print("Extracting Noun {0} from file".format(row[BARE]))
             json_to_write.append(extract_from_row(row))
 
-    with open('data/adjectives.json', 'w', encoding='utf-8') as jsonfile:
+    with open('../data/adjectives.json', 'w', encoding='utf-8') as jsonfile:
         json.dump(json_to_write, jsonfile, indent=2, ensure_ascii=False)
 
 
@@ -174,5 +174,5 @@ def extract_nouns():
             print("Extracting Noun {0} from file".format(row[BARE]))
             json_to_write.append(extract_from_row(row))
 
-    with open('data/nouns.json', 'w', encoding='utf-8') as jsonfile:
+    with open('../data/nouns.json', 'w', encoding='utf-8') as jsonfile:
         json.dump(json_to_write, jsonfile, indent=2, ensure_ascii=False)

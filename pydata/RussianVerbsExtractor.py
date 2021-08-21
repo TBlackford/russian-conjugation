@@ -123,5 +123,5 @@ def extract():
                 print('ERROR: {0} is missing from the list!'.format(row[0]))
 
     # Write to the JSON file
-    with open('data/verbs.json', 'w', encoding='utf-8') as jsonfile:
+    with open('../data/verbs.json', 'w', encoding='utf-8') as jsonfile:
         json.dump(json_to_write, jsonfile, indent=2, ensure_ascii=False)
